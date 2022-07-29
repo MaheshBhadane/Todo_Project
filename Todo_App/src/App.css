@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 640px;
+  min-height: 600px;
+  background: #70217b;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mt-10 {
+  margin-top: 20px;
+}
+
+
+.btn {
+  cursor: pointer;
+}
+
+.remove {
+  cursor: pointer;
+  color: red;
+}
+
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
